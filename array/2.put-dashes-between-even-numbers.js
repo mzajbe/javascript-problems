@@ -1,3 +1,5 @@
+// Write a JavaScript program that accepts a number as input and inserts dashes (-) between each even number. For example if you accept 025468 the output should be 0-254-6-8.
+
 const dashesBetweenEven=(number)=>{
     const numberAsString = number.toString();
     const result = [numberAsString[0]];
@@ -15,7 +17,7 @@ const dashesBetweenEven=(number)=>{
 
 }
 
-console.log(dashesBetweenEven(1221));
+console.log(dashesBetweenEven(25468));
 
 
 
